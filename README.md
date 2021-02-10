@@ -1,4 +1,4 @@
-# End_To_End_Big_Data_Stream_Processing_Analytics_Project
+# End To End Big Data Stream Processing Analytics Project for IoT Applications
 
 This is a combination of 4 major streams.
 
