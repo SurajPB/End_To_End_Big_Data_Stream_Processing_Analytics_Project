@@ -96,7 +96,7 @@ def mail(to,sub):# function for mailing -mail( TO mail-id, subject)
          
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login(fromaddr, "Bitsdissertation@123")
+        server.login(fromaddr, "Gmail Password here")
         text = msg.as_string()
         server.sendmail(fromaddr, toaddr, text)
         server.quit()
@@ -106,7 +106,7 @@ def mail(to,sub):# function for mailing -mail( TO mail-id, subject)
 
 def mob(msg):
     account_sid = "AC4b0a0501ad51fbdeaf0029650efa872e" #My Account SID from www.twilio.com/console
-    auth_token  = "b89dc50947f8564dfea6aefefbc810ae"  #My Auth Token from www.twilio.com/console
+    auth_token  = "Twilio Authentication Token here"  #My Auth Token from www.twilio.com/console
 
     client = TwilioRestClient(account_sid, auth_token) #<twilio.rest.client.TwilioRestClient object at "hex address">
     
