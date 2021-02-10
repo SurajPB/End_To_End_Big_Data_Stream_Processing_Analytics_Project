@@ -1,0 +1,1 @@
+addSbtPlugin("com.orendainx.trucking.simulator" % "sbt-assembly" % "0.12.0")
