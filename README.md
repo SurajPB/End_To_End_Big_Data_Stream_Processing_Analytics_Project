@@ -1,4 +1,4 @@
-# End To End Big Data Stream Processing Analytics Project for IoT Applications
+# End To End Big Data Stream Processing Analytics Project for IoT Applications - A prototype to Vi
 
 This is a combination of 4 major streams.
 
